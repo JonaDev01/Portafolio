@@ -1,0 +1,166 @@
+{
+  "projects": [
+    {
+      "title": "Space Shooter 2D",
+      "title_en": "Space Shooter 2D",
+      "description": "Un shooter espacial arcade con mecánicas de power-ups, enemigos con IA, y sistema de oleadas progresivas.",
+      "description_en": "An arcade space shooter with power-up mechanics, AI enemies, and progressive wave system.",
+      "full_description": "Juego completo de shooter espacial desarrollado en Unity. Incluye sistema de power-ups dinámicos, enemigos con comportamiento de IA adaptativa, sistema de oleadas con dificultad progresiva, efectos visuales de partículas personalizados y sistema de puntuación con leaderboard local. El proyecto fue optimizado para funcionar a 60 FPS constantes en dispositivos móviles de gama media.",
+      "full_description_en": "Complete space shooter game developed in Unity. Features dynamic power-up system, enemies with adaptive AI behavior, wave system with progressive difficulty, custom particle visual effects, and scoring system with local leaderboard. The project was optimized to run at constant 60 FPS on mid-range mobile devices.",
+      "category": "unity",
+      "technologies": ["Unity", "C#", "Particle System", "2D Physics", "Mobile Optimization"],
+      "features": [
+        "Sistema de power-ups con 5 tipos diferentes",
+        "IA enemiga con 3 patrones de comportamiento",
+        "15 oleadas con dificultad creciente",
+        "Sistema de partículas optimizado",
+        "Leaderboard local persistente"
+      ],
+      "features_en": [
+        "Power-up system with 5 different types",
+        "Enemy AI with 3 behavior patterns",
+        "15 waves with increasing difficulty",
+        "Optimized particle system",
+        "Persistent local leaderboard"
+      ],
+      "image": "",
+      "github": "https://github.com/tuusuario/space-shooter",
+      "demo": "https://tuusuario.itch.io/space-shooter"
+    },
+    {
+      "title": "Puzzle Platformer",
+      "title_en": "Puzzle Platformer",
+      "description": "Plataformas con mecánicas de manipulación de gravedad. El jugador puede cambiar la dirección de la gravedad para resolver puzzles.",
+      "description_en": "Platformer with gravity manipulation mechanics. The player can change gravity direction to solve puzzles.",
+      "full_description": "Juego de plataformas y puzzles donde el jugador controla la dirección de la gravedad. Desarrollado durante una Game Jam de 48 horas. Incluye 12 niveles diseñados a mano, sistema de físicas personalizado para la manipulación de gravedad, mecánica de checkpoints y sistema de tiempo para speedrunners.",
+      "full_description_en": "Platformer and puzzle game where the player controls gravity direction. Developed during a 48-hour Game Jam. Features 12 hand-designed levels, custom physics system for gravity manipulation, checkpoint mechanics, and timing system for speedrunners.",
+      "category": "unity",
+      "technologies": ["Unity", "C#", "Level Design", "Physics2D", "Cinemachine"],
+      "features": [
+        "12 niveles con puzzles únicos",
+        "Sistema de gravedad en 4 direcciones",
+        "Mecánica de checkpoints automáticos",
+        "Timer y sistema de récords",
+        "Controles precisos y responsivos"
+      ],
+      "features_en": [
+        "12 levels with unique puzzles",
+        "4-directional gravity system",
+        "Automatic checkpoint mechanics",
+        "Timer and record system",
+        "Precise and responsive controls"
+      ],
+      "image": "",
+      "github": "https://github.com/tuusuario/puzzle-platformer",
+      "demo": ""
+    },
+    {
+      "title": "Sistema de Inventario Modular",
+      "title_en": "Modular Inventory System",
+      "description": "Sistema de inventario modular y escalable con drag & drop, stacking, y categorización.",
+      "description_en": "Modular and scalable inventory system with drag & drop, stacking, and categorization.",
+      "full_description": "Sistema de inventario completo diseñado como asset reutilizable. Implementa drag & drop intuitivo, sistema de stacking configurable, categorización de items, filtros de búsqueda, serialización JSON para persistencia de datos, y arquitectura basada en ScriptableObjects para fácil extensión. Incluye documentación completa y ejemplos de uso.",
+      "full_description_en": "Complete inventory system designed as a reusable asset. Implements intuitive drag & drop, configurable stacking system, item categorization, search filters, JSON serialization for data persistence, and ScriptableObject-based architecture for easy extension. Includes complete documentation and usage examples.",
+      "category": "tools",
+      "technologies": ["Unity", "C#", "UI Toolkit", "ScriptableObjects", "JSON"],
+      "features": [
+        "Drag & drop fluido y preciso",
+        "Stacking automático configurable",
+        "Sistema de categorías y filtros",
+        "Persistencia de datos en JSON",
+        "100% documentado y extensible"
+      ],
+      "features_en": [
+        "Fluid and precise drag & drop",
+        "Configurable automatic stacking",
+        "Category and filter system",
+        "JSON data persistence",
+        "100% documented and extensible"
+      ],
+      "image": "",
+      "github": "https://github.com/tuusuario/inventory-system",
+      "demo": ""
+    },
+    {
+      "title": "Generador Procedural de Mazmorras",
+      "title_en": "Procedural Dungeon Generator",
+      "description": "Generador de mazmorras procedurales usando algoritmos de BSP y Cellular Automata.",
+      "description_en": "Procedural dungeon generator using BSP and Cellular Automata algorithms.",
+      "full_description": "Herramienta de generación procedural que crea mazmorras únicas en cada ejecución. Combina algoritmos de Binary Space Partitioning para la distribución de habitaciones y Cellular Automata para la generación de cavernas naturales. Incluye sistema de colocación inteligente de loot, generación de pasillos con A*, y visualización en tiempo real del proceso de generación.",
+      "full_description_en": "Procedural generation tool that creates unique dungeons on each run. Combines Binary Space Partitioning algorithms for room distribution and Cellular Automata for natural cave generation. Includes intelligent loot placement system, A* corridor generation, and real-time visualization of the generation process.",
+      "category": "tools",
+      "technologies": ["Unity", "C#", "Procedural Generation", "A* Pathfinding", "Tilemap"],
+      "features": [
+        "Algoritmos BSP y Cellular Automata",
+        "Generación de pasillos con A*",
+        "Sistema de loot inteligente",
+        "Visualización del proceso en tiempo real",
+        "Configuración parametrizada"
+      ],
+      "features_en": [
+        "BSP and Cellular Automata algorithms",
+        "A* corridor generation",
+        "Intelligent loot system",
+        "Real-time process visualization",
+        "Parameterized configuration"
+      ],
+      "image": "",
+      "github": "https://github.com/tuusuario/dungeon-generator",
+      "demo": "https://tuusuario.itch.io/dungeon-gen"
+    },
+    {
+      "title": "Behavior Tree para IA",
+      "title_en": "AI Behavior Tree",
+      "description": "Implementación de Behavior Trees para enemigos con estados complejos: patrullar, perseguir, atacar y huir.",
+      "description_en": "Behavior Tree implementation for enemies with complex states: patrol, chase, attack, and flee.",
+      "full_description": "Sistema completo de IA basado en Behavior Trees. Los enemigos exhiben comportamientos complejos y realistas: patrullan áreas designadas, detectan al jugador usando raycasts y campos de visión, persiguen de forma inteligente usando NavMesh, evalúan situaciones de combate para decidir entre atacar o huir, y pueden llamar refuerzos. El sistema es completamente visual y modificable sin código.",
+      "full_description_en": "Complete AI system based on Behavior Trees. Enemies exhibit complex and realistic behaviors: patrol designated areas, detect players using raycasts and fields of view, intelligently chase using NavMesh, evaluate combat situations to decide between attacking or fleeing, and can call for reinforcements. The system is completely visual and modifiable without code.",
+      "category": "unity",
+      "technologies": ["Unity", "C#", "AI", "NavMesh", "State Machines"],
+      "features": [
+        "Behavior Tree visual y sin código",
+        "Sistema de visión con raycasts",
+        "Navegación inteligente con NavMesh",
+        "Evaluación táctica de combate",
+        "Sistema de comunicación entre enemigos"
+      ],
+      "features_en": [
+        "Visual code-free Behavior Tree",
+        "Vision system with raycasts",
+        "Intelligent NavMesh navigation",
+        "Combat tactical evaluation",
+        "Enemy communication system"
+      ],
+      "image": "",
+      "github": "https://github.com/tuusuario/ai-behavior-tree",
+      "demo": ""
+    },
+    {
+      "title": "Prototipo de Juego de Ritmo",
+      "title_en": "Rhythm Game Prototype",
+      "description": "Prototipo de juego de ritmo donde las notas se sincronizan con el audio.",
+      "description_en": "Rhythm game prototype where notes sync with audio.",
+      "full_description": "Prototipo jugable de juego de ritmo musical. Las notas se generan automáticamente analizando el espectro de audio en tiempo real. Incluye sistema de detección de timing preciso (Perfect/Great/Good/Miss), sistema de combos y multiplicadores, efectos visuales reactivos al audio, y curva de dificultad dinámica. Integración con FMOD para audio profesional.",
+      "full_description_en": "Playable rhythm game prototype. Notes are automatically generated by analyzing the audio spectrum in real-time. Features precise timing detection system (Perfect/Great/Good/Miss), combo and multiplier system, audio-reactive visual effects, and dynamic difficulty curve. FMOD integration for professional audio.",
+      "category": "unity",
+      "technologies": ["Unity", "C#", "Audio Analysis", "FMOD", "Particle Systems"],
+      "features": [
+        "Generación de notas por análisis de audio",
+        "Sistema de timing preciso (±16ms)",
+        "Combos y multiplicadores de puntuación",
+        "Visuales reactivos al audio",
+        "Integración profesional con FMOD"
+      ],
+      "features_en": [
+        "Note generation via audio analysis",
+        "Precise timing system (±16ms)",
+        "Combos and score multipliers",
+        "Audio-reactive visuals",
+        "Professional FMOD integration"
+      ],
+      "image": "",
+      "github": "https://github.com/tuusuario/rhythm-game",
+      "demo": "https://tuusuario.itch.io/rhythm-proto"
+    }
+  ]
+}

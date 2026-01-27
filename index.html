@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio de desarrollo de videojuegos y programación">
+    <title>Tu Nombre | Game Developer & Programmer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-bracket">&lt;</span>
+                <span class="logo-text">DEV</span>
+                <span class="logo-bracket">/&gt;</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active" data-es="Inicio" data-en="Home">Inicio</a></li>
+                <li><a href="#about" class="nav-link" data-es="Sobre Mí" data-en="About">Sobre Mí</a></li>
+                <li><a href="#projects" class="nav-link" data-es="Proyectos" data-en="Projects">Proyectos</a></li>
+                <li><a href="#skills" class="nav-link" data-es="Skills" data-en="Skills">Skills</a></li>
+                <li><a href="#contact" class="nav-link" data-es="Contacto" data-en="Contact">Contacto</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="lang-toggle" id="langToggle" aria-label="Change language">
+                    <span class="lang-option active" data-lang="es">ES</span>
+                    <span class="lang-divider">/</span>
+                    <span class="lang-option" data-lang="en">EN</span>
+                </button>
+                <button class="nav-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="hero-grid"></div>
+            <div class="particles" id="particles"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-glitch">
+                <span class="hero-label" data-es="Desarrollador de Videojuegos" data-en="Game Developer">Desarrollador de Videojuegos</span>
+                <h1 class="hero-title">
+                    <span class="title-line" data-es="CREANDO" data-en="CREATING">CREANDO</span>
+                    <span class="title-line highlight" data-es="EXPERIENCIAS" data-en="EXPERIENCES">EXPERIENCIAS</span>
+                    <span class="title-line" data-es="INTERACTIVAS" data-en="INTERACTIVE">INTERACTIVAS</span>
+                </h1>
+            </div>
+            <p class="hero-subtitle" data-es="Transformando ideas en mundos jugables, pixel por pixel" data-en="Transforming ideas into playable worlds, pixel by pixel">
+                Transformando ideas en mundos jugables, pixel por pixel
+            </p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">
+                    <span data-es="Ver Proyectos" data-en="View Projects">Ver Proyectos</span>
+                    <span class="btn-icon">→</span>
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <span data-es="Contacto" data-en="Contact">Contacto</span>
+                    <span class="btn-icon">✉</span>
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">15+</span>
+                    <span class="stat-label" data-es="Proyectos" data-en="Projects">Proyectos</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number">3+</span>
+                    <span class="stat-label" data-es="Años" data-en="Years">Años</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number">10+</span>
+                    <span class="stat-label" data-es="Tecnologías" data-en="Technologies">Tecnologías</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">01.</span>
+                <span data-es="Sobre Mí" data-en="About Me">Sobre Mí</span>
+                <span class="title-line-decorator"></span>
+            </h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro" data-es="Soy un desarrollador de videojuegos junior apasionado por crear experiencias interactivas que combinan código elegante con diseño creativo." data-en="I'm a junior game developer passionate about creating interactive experiences that combine elegant code with creative design.">
+                        Soy un desarrollador de videojuegos junior apasionado por crear experiencias interactivas que combinan código elegante con diseño creativo.
+                    </p>
+                    <p data-es="Mi enfoque está en el desarrollo de mecánicas de juego innovadoras y la optimización de rendimiento. Me especializo en Unity y C#, con experiencia en desarrollo tanto 2D como 3D." data-en="My focus is on developing innovative game mechanics and performance optimization. I specialize in Unity and C#, with experience in both 2D and 3D development.">
+                        Mi enfoque está en el desarrollo de mecánicas de juego innovadoras y la optimización de rendimiento. Me especializo en Unity y C#, con experiencia en desarrollo tanto 2D como 3D.
+                    </p>
+                    <p data-es="Cuando no estoy programando, participo en game jams, contribuyo a proyectos open source y exploro nuevas tecnologías emergentes en la industria del gaming." data-en="When I'm not coding, I participate in game jams, contribute to open source projects, and explore emerging technologies in the gaming industry.">
+                        Cuando no estoy programando, participo en game jams, contribuyo a proyectos open source y exploro nuevas tecnologías emergentes en la industria del gaming.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <span class="highlight-icon">🎮</span>
+                            <span class="highlight-text" data-es="Gameplay Programming" data-en="Gameplay Programming">Gameplay Programming</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="highlight-icon">⚡</span>
+                            <span class="highlight-text" data-es="Optimización" data-en="Optimization">Optimización</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="highlight-icon">🎨</span>
+                            <span class="highlight-text" data-es="UI/UX Design" data-en="UI/UX Design">UI/UX Design</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="profile-card">
+                        <div class="profile-image">
+                            <div class="profile-placeholder">
+                                <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                    <defs>
+                                        <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                            <stop offset="0%" style="stop-color:var(--accent-cyan);stop-opacity:0.3" />
+                                            <stop offset="100%" style="stop-color:var(--accent-magenta);stop-opacity:0.3" />
+                                        </linearGradient>
+                                    </defs>
+                                    <circle cx="100" cy="100" r="90" fill="url(#grad1)"/>
+                                    <path d="M100 50 L130 90 L170 90 L140 115 L155 155 L100 130 L45 155 L60 115 L30 90 L70 90 Z" fill="var(--accent-cyan)" opacity="0.2"/>
+                                    <circle cx="100" cy="80" r="25" fill="var(--bg-tertiary)"/>
+                                    <ellipse cx="100" cy="140" rx="35" ry="45" fill="var(--bg-tertiary)"/>
+                                </svg>
+                            </div>
+                            <div class="profile-decoration"></div>
+                        </div>
+                        <div class="profile-badge">
+                            <span data-es="Disponible para proyectos" data-en="Available for projects">Disponible para proyectos</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">02.</span>
+                <span data-es="Proyectos Destacados" data-en="Featured Projects">Proyectos Destacados</span>
+                <span class="title-line-decorator"></span>
+            </h2>
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all" data-es="Todos" data-en="All">Todos</button>
+                <button class="filter-btn" data-filter="unity" data-es="Unity" data-en="Unity">Unity</button>
+                <button class="filter-btn" data-filter="web" data-es="Web Games" data-en="Web Games">Web Games</button>
+                <button class="filter-btn" data-filter="tools" data-es="Herramientas" data-en="Tools">Herramientas</button>
+            </div>
+            <div class="projects-grid" id="projectsContainer">
+                <!-- Projects will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">03.</span>
+                <span data-es="Habilidades Técnicas" data-en="Technical Skills">Habilidades Técnicas</span>
+                <span class="title-line-decorator"></span>
+            </h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <span class="skill-icon">🎮</span>
+                        <h3 class="skill-category-title">Game Engines</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Unity</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Unreal Engine</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 70%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Godot</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 65%"></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <span class="skill-icon">💻</span>
+                        <h3 class="skill-category-title" data-es="Lenguajes" data-en="Languages">Lenguajes</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">C#</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">C++</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 75%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 80%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 70%"></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <span class="skill-icon">🛠️</span>
+                        <h3 class="skill-category-title" data-es="Herramientas" data-en="Tools">Herramientas</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Git & GitHub</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Blender</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 60%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Photoshop</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 70%"></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <span class="skill-icon">⚡</span>
+                        <h3 class="skill-category-title" data-es="Especialidades" data-en="Specialties">Especialidades</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Gameplay Programming</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">AI & Pathfinding</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 75%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Physics Systems</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 80%"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">04.</span>
+                <span data-es="Trabajemos Juntos" data-en="Let's Work Together">Trabajemos Juntos</span>
+                <span class="title-line-decorator"></span>
+            </h2>
+            <div class="contact-content">
+                <p class="contact-text" data-es="Estoy siempre abierto a nuevas oportunidades y colaboraciones. Ya sea que tengas un proyecto en mente o simplemente quieras conectar, no dudes en contactarme." data-en="I'm always open to new opportunities and collaborations. Whether you have a project in mind or just want to connect, feel free to reach out.">
+                    Estoy siempre abierto a nuevas oportunidades y colaboraciones. Ya sea que tengas un proyecto en mente o simplemente quieras conectar, no dudes en contactarme.
+                </p>
+                <div class="contact-grid">
+                    <a href="mailto:tuemail@example.com" class="contact-card">
+                        <div class="contact-icon">✉</div>
+                        <h3 class="contact-title">Email</h3>
+                        <p class="contact-detail">tuemail@example.com</p>
+                    </a>
+                    <a href="https://github.com/tuusuario" target="_blank" class="contact-card">
+                        <div class="contact-icon">⚡</div>
+                        <h3 class="contact-title">GitHub</h3>
+                        <p class="contact-detail">@tuusuario</p>
+                    </a>
+                    <a href="https://linkedin.com/in/tuusuario" target="_blank" class="contact-card">
+                        <div class="contact-icon">◈</div>
+                        <h3 class="contact-title">LinkedIn</h3>
+                        <p class="contact-detail">in/tuusuario</p>
+                    </a>
+                    <a href="https://tuusuario.itch.io" target="_blank" class="contact-card">
+                        <div class="contact-icon">◆</div>
+                        <h3 class="contact-title">itch.io</h3>
+                        <p class="contact-detail">@tuusuario</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-text">
+                    <span data-es="Diseñado y desarrollado por" data-en="Designed and developed by">Diseñado y desarrollado por</span> 
+                    <strong>Tu Nombre</strong> © 2026
+                </p>
+                <p class="footer-subtitle" data-es="Hecho con código y creatividad" data-en="Made with code and creativity">
+                    Hecho con código y creatividad
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Project Modal -->
+    <div class="modal" id="projectModal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Close modal">×</button>
+            <div class="modal-body">
+                <!-- Content loaded dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
