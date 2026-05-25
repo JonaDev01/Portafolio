@@ -1,22 +1,50 @@
+# ==========================================
 # OS Files
+# ==========================================
 .DS_Store
 Thumbs.db
+desktop.ini
 
-# Editor Directories
+# ==========================================
+# Editor & IDE
+# ==========================================
 .vscode/
 .idea/
 *.swp
 *.swo
+*.suo
 
-# Temporary Files
-*.tmp
+# ==========================================
+# Logs & Temp
+# ==========================================
 *.log
+*.tmp
+*.bak
 
-# Build Files (if using any build tools later)
+# ==========================================
+# Node (si se usan herramientas de build en el futuro)
+# ==========================================
 node_modules/
 dist/
 build/
+.npm/
 
-# Personal Notes (optional)
-notes.txt
-TODO.md
+# ==========================================
+# Claude Code (configuración local de desarrollo)
+# ==========================================
+.claude/
+
+# ==========================================
+# Archivos duplicados obsoletos en raíz
+# (reemplazados por css/, js/, data/)
+# ==========================================
+/style.css
+/main.js
+/projects.json
+
+# ==========================================
+# Env & Secrets
+# ==========================================
+.env
+.env.local
+.env.*.local
